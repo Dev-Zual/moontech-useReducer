@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Cart from "../pages/Cart";
 import Home from "../pages/Home";
 import TopRated from "../pages/TopRated";
+import WishList from "../pages/WishList";
 
 const routes = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const routes = createBrowserRouter([
       {
         path: "top-rated",
         element: <TopRated />,
+      },
+      {
+        path: "wishlist",
+        element: <WishList />,
       },
       {
         path: "cart",
